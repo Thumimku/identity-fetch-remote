@@ -21,7 +21,7 @@
     <parent>
         <artifactId>remotefetch</artifactId>
         <groupId>org.wso2.identity.remotefetch</groupId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -90,8 +90,16 @@
                                 <bundleDef>org.wso2.identity.remotefetch:org.wso2.carbon.identity.remotefetch.core.ui</bundleDef>
                                 <bundleDef>org.eclipse.jgit:org.eclipse.jgit</bundleDef>
                                 <bundleDef>com.googlecode.javaewah:JavaEWAH</bundleDef>
-                                <!--<bundleDef>com.jcraft:jsch</bundleDef>-->
+                                <bundleDef>org.wso2.orbit.com.jcraft:jsch:0.1.54.wso2v1</bundleDef>
                             </bundles>
+<!--                            <importFeatures>-->
+<!--                                <importFeatureDef>org.eclipse.jgit:${org.jgit.version.range}</importFeatureDef>-->
+<!--                                <importFeatureDef>com.googlecode.javaewah:${javaewah.version}</importFeatureDef>-->
+<!--                                <importFeatureDef>com.jcraft.jsch:0.1.38</importFeatureDef>-->
+<!--                            </importFeatures>-->
+<!--                            <includedFeatures>-->
+<!--                                <includedFeatureDef>com.jcraft:com.jcraft.jsch:0.1.38</includedFeatureDef>-->
+<!--                            </includedFeatures>-->
                         </configuration>
                     </execution>
                 </executions>

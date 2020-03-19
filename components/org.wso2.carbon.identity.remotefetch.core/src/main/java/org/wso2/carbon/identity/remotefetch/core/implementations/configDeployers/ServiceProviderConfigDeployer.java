@@ -18,7 +18,6 @@
 
 package org.wso2.carbon.identity.remotefetch.core.implementations.configDeployers;
 
-import com.jcraft.jsch.IO;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.wso2.carbon.context.PrivilegedCarbonContext;
@@ -34,8 +33,6 @@ import org.wso2.carbon.identity.remotefetch.core.implementations.repositoryHandl
 import org.wso2.carbon.identity.remotefetch.core.internal.RemoteFetchServiceComponentHolder;
 import org.wso2.carbon.identity.application.common.model.SpFileStream;
 import org.wso2.carbon.user.api.UserStoreException;
-
-import java.io.IOException;
 
 /**
  * Deploy new or update ServiceProviders using ApplicationManagementService.
